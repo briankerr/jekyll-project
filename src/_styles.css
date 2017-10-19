@@ -1,0 +1,22 @@
+/*
+
+  STYLES
+
+  Add custom styles here.
+
+*/
+
+blockquote {
+	margin-top: 0;
+	margin-left: 0;
+	padding-left: 2rem;
+	border-width: .25rem;
+	border-color: var(--red);
+	border-left-style: solid;
+}
+
+/* This is a comment! */
+
+hr {
+	border: .05rem dashed var(--light-blue);
+}

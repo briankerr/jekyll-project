@@ -1,0 +1,19 @@
+html,
+body {
+  height: 100%;
+  background-color: var(--blue);
+  color: var(--light-blue);
+  font-family: 'avenir next', avenir, sans-serif;
+  /* font-size: 1.5rem; */
+}
+
+/*
+blockquote {
+	margin-top: 0;
+	margin-left: 0;
+	padding-left: 2rem;
+	border-width: .25rem;
+	border-color: #ff4136;
+	border-left-style: solid;
+}
+*/

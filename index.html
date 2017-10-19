@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<section class="f3 lh-copy w-two-thirds
+ dib-ns tl">
+  <h1>Howdy, I'm Brian 👋🏼.</h1>
+  <p>A Customer Centric Professional from Iowa. Proudly employed by <a href="https://wildbit.com" class="link yellow dim">Wildbit</a>.</p>
+  <h2>Lastest Blog Posts!</h2>
+  <article> 
+    {% if site.posts.size > 0 %}
+      <ul>
+      {% for post in site.posts limit:2 %}
+        <li>
+          <a class="link yellow dim" href="{{ post.url }}">
+            <p>{{ post.title }}</p>
+          </a>
+        </li>
+      {% endfor %}
+      </ul>
+      {% else %}
+      <p>There are no posts available right. Come back soon!</p>
+    {% endif %}
+  </article>
+  <section>
+  <p>
+    ............
+  </p>
+  </section>
+</section>

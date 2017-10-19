@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include _head.html %}
+<body class="ph3 pv4 tc avenir">
+  {% include _navigation.html %}
+  <article class="f3 lh-copy w-two-thirds
+ dib-ns tl">
+    <h6>
+      {{ page.date | date: '%B %d, %Y' }}
+    </h6>
+    <h2>
+      {{page.title}}
+    </h2>
+      {{content}}
+    <!-- end of post content -->
+  </article>
+  {% include _related_posts.html %}
+  {% include _navigation.html %}
+  {% include _footer.html %}
+  {% include _google_analytics.html %}
+</body>
+</html>
